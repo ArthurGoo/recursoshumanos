@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=double\ getGratifica\u00E7\u00E3o()
+comment1.params=gratifica\u00E7\u00E3o
+comment1.target=void\ setGratifica\u00E7\u00E3o(double)
+comment2.params=
+comment2.target=double\ getHoraExtra()
+comment3.params=horaExtra
+comment3.target=void\ setHoraExtra(double)
+comment4.params=
+comment4.target=double\ getValeAlimentacao()
+comment5.params=valeAlimentacao
+comment5.target=void\ setValeAlimentacao(double)
+comment6.params=
+comment6.target=double\ getValeTransporte()
+comment7.params=valeTransporte
+comment7.target=void\ setValeTransporte(double)
+numComments=8
