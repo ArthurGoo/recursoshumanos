@@ -18,7 +18,7 @@ public class Cargos {
 		this.todosCargos = todosCargos;
 	}
 	
-	public Cargo getBuscarCargo(Sring nomeCargo){
+	public Cargo getBuscarCargo(String nomeCargo){
 		for (Cargo c: this.todosCargos){
 			if (c.getNomeCargo().equals(nomeCargo)){
 				return c;
@@ -28,11 +28,10 @@ public class Cargos {
 		return null;
 	}
 	public Beneficio beneficioDeCargo (String nomeCargo){
-		for (Cargo c: this.todosCargos){
-			if (c.getNomeCargo().equals(nomeCargo)){
-				return c.getBeneficio();
-				
-			}
+		
+        	Cargo c = getBuscarCargo(nomeCargo);
+		if (c != null){
+			return c.getBeneficio();
 		}
 		return null;
 	}
