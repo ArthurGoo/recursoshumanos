@@ -18,9 +18,9 @@ public class Cargos {
 		this.todosCargos = todosCargos;
 	}
 	
-	public Cargo getBuscarCargo(Cargo cargo){
+	public Cargo getBuscarCargo(Sring nomeCargo){
 		for (Cargo c: this.todosCargos){
-			if (c.getNomeCargo().equals(cargo.getNomeCargo())){
+			if (c.getNomeCargo().equals(nomeCargo)){
 				return c;
 				
 			}
