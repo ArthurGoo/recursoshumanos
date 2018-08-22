@@ -7,6 +7,7 @@ public class Cargo {
     private double valeAlimentacao; 
     private double valeTransporte;
 
+
     public Cargo (String nomeCargo, double salarioCargo, double gratificacao, double horaExtra, double valeAlimentacao, double valeTransporte) {
         this.nomeCargo = nomeCargo;
         this.salarioCargo = salarioCargo;
@@ -15,7 +16,7 @@ public class Cargo {
         this.valeAlimentacao = valeAlimentacao;
         this.valeTransporte = valeTransporte;
     }
-    
+
     public String getNomeCargo () {
         return nomeCargo;
     }
