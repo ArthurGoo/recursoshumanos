@@ -2,10 +2,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cargos {
-	private List<Cargo> todosCargos;
+public class GerenteCargo {
+	private List<Cargo> todos;
 
-	public Cargos() {
+	public GerenteCargo() {
 		
 		this.todosCargos = new ArrayList <Cargo> ();
 	} 
